@@ -5,6 +5,18 @@
     color: currentColor;
 }
 
+.side-title {
+    color: currentColor;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main-title {
+    color: currentColor;
+    font-weight: 700;
+    font-size: 60px;
+}
+
 .important-text {
     color: variables.$brand-yellow;
 }

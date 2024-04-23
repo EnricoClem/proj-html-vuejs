@@ -1,3 +1,5 @@
+@use '/src/style/partials/variables.scss';
+
 .container-lg {
     width: 100%;
 }
@@ -56,4 +58,30 @@
 
 .col-3 {
     max-width: 25%;
+}
+
+.button-yellow {
+    background-color: variables.$brand-yellow;
+    border: none;
+    color: currentColor;
+    font-weight: 500;
+    padding: 15px 40px;
+    border-radius: 0 15px 0 15px ;
+
+    &:hover {
+        background-color: variables.$brand-green;
+    }
+}
+
+.button-green {
+    background-color: variables.$brand-green;
+    border: none;
+    color: currentColor;
+    font-weight: 500;
+    padding: 15px 40px;
+    border-radius: 0 15px 0 15px ;
+
+    &:hover {
+        background-color: variables.$brand-yellow;
+    }
 }

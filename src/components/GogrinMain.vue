@@ -1,12 +1,16 @@
 <script>
-  export default {
+  import MainHero from './MainHero.vue';
 
+  export default {
+    components: {
+      MainHero
+    }
   };
 </script>
 
 <template>
 
-<h1>MAIN</h1>
+<MainHero />
 
 </template>
 
