@@ -1,0 +1,10 @@
+@use '/src/style/partials/variables.scss';
+
+.paragraph {
+    font-size: small;
+    color: currentColor;
+}
+
+.important-text {
+    color: variables.$brand-yellow;
+}

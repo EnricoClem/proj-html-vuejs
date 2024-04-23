@@ -1,29 +1,29 @@
 <script>
-import Header from './components/Header.vue';
-import Main from './components/Main.vue';
-import Footer from './components/Footer.vue';
+import GogrinHeader from './components/GogrinHeader.vue';
+import GogrinMain from './components/GogrinMain.vue';
+import GogrinFooter from './components/GogrinFooter.vue';
 
   export default {
     components: {
-      Header,
-      Main,
-      Footer
+      GogrinHeader,
+      GogrinMain,
+      GogrinFooter
     }
   };
 </script>
 
 <template>
 
-  <Header />
+  <GogrinHeader />
 
-  <Main />
+  <GogrinMain />
 
-  <Footer />
+  <GogrinFooter />
 
 </template>
 
 <style lang="scss">
 
-@use './style/general';
+@use './style/general.scss';
 
 </style>
