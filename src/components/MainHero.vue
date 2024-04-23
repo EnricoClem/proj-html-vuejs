@@ -6,7 +6,7 @@
 
 <template>
 
-    <div class="container-lg flex">
+    <section class="container-lg flex">
         <div class="container-sm flex column centered">
             <h4 class="side-title">GOGRIN ORGANIC FOOD STORE</h4>
             <h1 class="main-title">Eating naturally & rganic is always be healthy.</h1>
@@ -15,7 +15,7 @@
                 <button class="button-green">OUR STORY</button>
             </div>
         </div>
-    </div>
+    </section>
 
 </template>
 
