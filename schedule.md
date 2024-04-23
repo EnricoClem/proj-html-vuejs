@@ -1,4 +1,4 @@
-* creare css base:
+* creare regole sass base:
     - reset rules
     - color root
     - layout
