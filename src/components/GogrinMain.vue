@@ -1,9 +1,11 @@
 <script>
   import MainHero from './MainHero.vue';
+  import MainBrand from './MainBrand.vue';
 
   export default {
     components: {
-      MainHero
+      MainHero,
+      MainBrand
     }
   };
 </script>
@@ -11,6 +13,7 @@
 <template>
 
 <MainHero />
+<MainBrand />
 
 </template>
 
