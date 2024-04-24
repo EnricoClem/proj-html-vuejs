@@ -67,8 +67,4 @@ import CardProduct from './CardProduct.vue';
     margin: 20px 0 25px 0;
 }
 
-.all-product-button {
-
-}
-
 </style>
