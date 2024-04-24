@@ -39,6 +39,7 @@
 
 .container-sm {
     width: calc(745px + 20px);
+    margin-bottom: 90px;
 }
 
 .card-combo {

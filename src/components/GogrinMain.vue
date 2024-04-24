@@ -4,6 +4,7 @@
   import MainProducts from '../components/MainProducts.vue';
   import MainQuote from './MainQuote.vue';
   import MainCombo from '../components/MainCombo.vue';
+  import MainData from './MainData.vue';
 
   export default {
     components: {
@@ -11,7 +12,8 @@
       MainBrand,
       MainProducts,
       MainQuote,
-      MainCombo
+      MainCombo,
+      MainData
     }
   };
 </script>
@@ -23,6 +25,7 @@
 <MainProducts />
 <MainQuote />
 <MainCombo />
+<MainData />
 
 </template>
 
