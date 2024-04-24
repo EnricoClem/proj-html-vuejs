@@ -1,7 +1,7 @@
 <script>
   import MainHero from './MainHero.vue';
   import MainBrand from './MainBrand.vue';
-  import MainProducts from './MainProducts.vue';
+  import MainProducts from '../components/MainProducts.vue';
 
   export default {
     components: {

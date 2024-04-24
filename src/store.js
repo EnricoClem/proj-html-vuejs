@@ -1,7 +1,5 @@
-import { reactive } from "vue";
-
-export const store = reactive({
-    products: [
+export const store = {
+    allProducts: [
         {
             name: 'Fresh Apple',
             img: 's5.jpg',
@@ -52,4 +50,4 @@ export const store = reactive({
             trending: ''
         }, 
     ]
-})
+}
