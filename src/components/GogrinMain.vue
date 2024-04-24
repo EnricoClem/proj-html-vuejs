@@ -6,6 +6,7 @@
   import MainCombo from '../components/MainCombo.vue';
   import MainData from './MainData.vue';
   import MainTrending from '../components/MainTrending.vue';
+  import MainCTA from './MainCTA.vue';
 
   export default {
     components: {
@@ -15,7 +16,8 @@
       MainQuote,
       MainCombo,
       MainData,
-      MainTrending
+      MainTrending,
+      MainCTA
     }
   };
 </script>
@@ -29,6 +31,7 @@
 <MainCombo />
 <MainData />
 <MainTrending />
+<MainCTA />
 
 </template>
 
