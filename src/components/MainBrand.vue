@@ -10,7 +10,7 @@
     <div class="flex column gap-md">
 
         <!-- Blocco con titolazione e paragrafi -->
-        <div class="flex">
+        <div class="flex first-row">
             <div class="col-6">
                 <h2 class="secondary-title">
                     <span class="important-text">Look what</span> consumer power has donewith <span class="important-text">organic food;</span> we can do the same with clothes.
@@ -19,6 +19,9 @@
             <div class="col-6 flex column">
                 <p class="paragraph gap-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aspernatur tempora voluptates qui laborum repellat<span class="important-text"> eum odit nulla maiores dolor necessitatibus itaque, quis aliquam at.</span></p>
                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, amet alias cupiditate pariatur porro sapiente praesentium dicta natus.</p>
+            </div>
+            <div class="badge-natural">
+                <img src="/public/fe-shap1-1.png" alt="">
             </div>
         </div>
 
@@ -66,6 +69,17 @@
 
 .paragraph {
     margin: 12px 0 10px 10px;
+}
+
+.first-row {
+    position: relative;
+}
+
+.badge-natural {
+    position: absolute;
+    width: 120px;
+    right: -150px;
+    top: 10px;
 }
 
 .gallery {
