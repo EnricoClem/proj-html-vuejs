@@ -3,13 +3,15 @@
   import MainBrand from './MainBrand.vue';
   import MainProducts from '../components/MainProducts.vue';
   import MainQuote from './MainQuote.vue';
+  import MainCombo from '../components/MainCombo.vue';
 
   export default {
     components: {
       MainHero,
       MainBrand,
       MainProducts,
-      MainQuote
+      MainQuote,
+      MainCombo
     }
   };
 </script>
@@ -20,6 +22,7 @@
 <MainBrand />
 <MainProducts />
 <MainQuote />
+<MainCombo />
 
 </template>
 
